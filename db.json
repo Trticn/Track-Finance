@@ -1,0 +1,54 @@
+{
+  "transactions": [
+    {
+      "title": "BlockDag",
+      "amount": 50,
+      "category": "Investments",
+      "description": "Ulaganje u BlockDag, 2000 tokena plus 6000 bonusa dostupnog kasnije.",
+      "source": "Crypto",
+      "date": "2025-03-06T07:51:29.555Z",
+      "type": "expense",
+      "id": 1
+    },
+    {
+      "title": "BlockDag",
+      "amount": 150,
+      "category": "Investments",
+      "description": "Kupovina x10 majnera za BlockDag",
+      "source": "Crypto",
+      "date": "2025-03-25T07:52:48.693Z",
+      "type": "expense",
+      "id": 2
+    },
+    {
+      "title": "LeCoq restoran",
+      "amount": 25,
+      "category": "Food",
+      "description": "Rucak sa Ninom u LeCoq restoranu.",
+      "source": "Cash",
+      "date": "2025-04-14T07:54:02.369Z",
+      "type": "expense",
+      "id": 3
+    },
+    {
+      "title": "Novac od roditelja",
+      "amount": 200,
+      "category": "Gifts",
+      "description": "Novac od roditelja za investicije",
+      "source": "Cash",
+      "date": "2025-03-01T07:54:53.815Z",
+      "type": "income",
+      "id": 4
+    },
+    {
+      "title": "Preprodaja Pi Coina",
+      "amount": 2350,
+      "category": "Business",
+      "description": "Zarada od preprodaje Pi coina",
+      "source": "Crypto",
+      "date": "2025-04-02T08:22:56.373Z",
+      "type": "income",
+      "id": 5
+    }
+  ]
+}
