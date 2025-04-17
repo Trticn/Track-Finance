@@ -82,7 +82,7 @@ function AddTransaction() {
     <div className="py-6 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
         <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-6 flex items-center"> 
             <span className="bg-blue-100 text-blue-600 p-2 rounded-lg mr-3">
               <PlusCircleIcon className="h-6 w-6" />
             </span>

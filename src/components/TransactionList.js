@@ -1,7 +1,8 @@
 import { useFetchTransactionsQuery } from "../store";
+import { InformationCircleIcon } from '@heroicons/react/24/outline';
 import Skeleton from "./Skeleton";
 import TransactionListItem from "./TransactionListItem";
-import { InformationCircleIcon } from '@heroicons/react/24/outline';
+
 
 function TransactionList({ compact = false, limit, transactionType }) {
   const { data, error, isFetching } = useFetchTransactionsQuery();

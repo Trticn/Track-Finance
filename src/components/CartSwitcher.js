@@ -1,17 +1,19 @@
 import { useState } from 'react';
+import classNames from 'classnames';
 import BarChartComponent from './BarChartComponent';
 import PieChartComponent from './PieChartComponent';
 import ChartCard from './ChartCard';
-import classNames from 'classnames';
+
 
 const TABS = [
+  { key: 'overview', label: 'Total Overview' },
   { key: 'category', label: 'By Category' },
   { key: 'source', label: 'By Source' },
-  { key: 'overview', label: 'Total Overview' }
+
 ];
 
 function ChartSwitcher({ chartData}) {
-  const [activeTab, setActiveTab] = useState('category');
+  const [activeTab, setActiveTab] = useState('overview');
 
   const currentLabel = TABS.find(tab => tab.key === activeTab)?.label || '';
   return (

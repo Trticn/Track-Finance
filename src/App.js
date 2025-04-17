@@ -6,15 +6,17 @@ import AddTransaction from './components/AddTransaction';
 import Root from './pages/Root';
 import HomePage from './pages/HomePage';
 import TransactionsPage from './pages/TransactionsPage';
+import NotFoundPage from './pages/NotFoundPage';
   
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root />,
     children: [
-      { index: true, element: <HomePage /> },
+      { index: true, element: <HomePage/> },
       { path: '/transactions', element: <TransactionsPage /> },
       { path: '/add-transaction', element: <AddTransaction /> },
+      { path:'*', element:<NotFoundPage />}
     ],
   },
 ]);

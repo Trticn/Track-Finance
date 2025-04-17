@@ -83,7 +83,7 @@ function BarChartComponent({ data, name }) {
               dataKey="name"
               type="category"
               width={60}
-              tick={{ fontSize: 13, fill: '#374151' }}
+              tick={{ fontSize: 11, fill: '#374151' }}
               axisLine={false}
               tickLine={false}
             />

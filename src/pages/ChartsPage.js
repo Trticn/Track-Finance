@@ -1,7 +1,8 @@
 import Skeleton from '../components/Skeleton';
+import ChartSwitcher from '../components/CartSwitcher';
 import { groupAndChart, getTotalChartData } from '../helpers';
 import { useMemo } from 'react';
-import ChartSwitcher from '../components/CartSwitcher';
+
 
 function ChartsPage({ data, isFetching, error }) {
   
