@@ -12,6 +12,12 @@ const handleRemoveTransaction = async () => {
     }
   };
 
+
+  const formatDate = () => {
+    const isoDate = transaction.date.split('T')[0]; 
+    const [year, month, day] = isoDate.split('-');
+    return `${day}/${month}/${year}`;
+  };
   
 
   return (
@@ -46,7 +52,7 @@ const handleRemoveTransaction = async () => {
               <br/>
               <div className="flex items-center text-sm text-gray-500">
                 <span className="font-medium mr-1">Date:</span>
-                {new Date(transaction.date).toLocaleDateString()}
+                {formatDate()}
               </div>
             </div>
             {transaction.description && (
