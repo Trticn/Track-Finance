@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 const transactionsApi = createApi({
     reducerPath:'transactions',
     baseQuery:fetchBaseQuery({
-        baseUrl:'https://trackfinancebackend.onrender.com'
+        baseUrl:'https://trackfinancebackend-production.up.railway.app'
     }),
     
 

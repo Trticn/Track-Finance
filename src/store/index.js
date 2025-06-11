@@ -18,7 +18,7 @@ export const store = configureStore({
 setupListeners(store.dispatch);
 
 
-console.log(store)
+
 export {
     changeAmount,changeCategory,changeDate,changeDescription,changeSource,changeTitle,changeType,resetForm
 }
